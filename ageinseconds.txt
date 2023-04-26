@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int a;
+    long long c;
+    long int b=31536000;
+    printf("enter your age: ");
+    scanf("%d",&a);
+    c=a*b;
+    printf("you lived %d seconds!",c);
+    return 0;
+}
